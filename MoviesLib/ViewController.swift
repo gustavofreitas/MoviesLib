@@ -9,14 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-        
-    }
-
-
+    
+    @IBOutlet weak var ivToy: UIImageView!
+    @IBOutlet weak var lbToy: UILabel!
+    
 }
 
