@@ -17,6 +17,7 @@
 		AC8C7A9E230CAC2800615BF0 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = AC8C7A9D230CAC2800615BF0 /* movies.json */; };
 		AC8C7AA0230CAD1B00615BF0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C7A9F230CAD1B00615BF0 /* Movie.swift */; };
 		AC8C7AA2230CBAF100615BF0 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C7AA1230CBAF100615BF0 /* MoviesTableViewController.swift */; };
+		AC8C7AA4230CCC7300615BF0 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C7AA3230CCC7300615BF0 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AC8C7A9D230CAC2800615BF0 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
 		AC8C7A9F230CAD1B00615BF0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = Assets.xcassets/Movie.swift; sourceTree = "<group>"; };
 		AC8C7AA1230CBAF100615BF0 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		AC8C7AA3230CCC7300615BF0 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				AC6EE81E23061299003EAFC8 /* Assets.xcassets */,
 				AC6EE82023061299003EAFC8 /* LaunchScreen.storyboard */,
 				AC6EE82323061299003EAFC8 /* Info.plist */,
+				AC8C7AA3230CCC7300615BF0 /* MovieTableViewCell.swift */,
 			);
 			path = MoviesLib;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8C7AA4230CCC7300615BF0 /* MovieTableViewCell.swift in Sources */,
 				AC8C7AA2230CBAF100615BF0 /* MoviesTableViewController.swift in Sources */,
 				AC6EE81A23061297003EAFC8 /* ViewController.swift in Sources */,
 				AC6EE81823061297003EAFC8 /* AppDelegate.swift in Sources */,
