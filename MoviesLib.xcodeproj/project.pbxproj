@@ -14,6 +14,9 @@
 		AC6EE82223061299003EAFC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6EE82023061299003EAFC8 /* LaunchScreen.storyboard */; };
 		AC6EE82D2306129A003EAFC8 /* MoviesLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6EE82C2306129A003EAFC8 /* MoviesLibTests.swift */; };
 		AC6EE8382306129A003EAFC8 /* MoviesLibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6EE8372306129A003EAFC8 /* MoviesLibUITests.swift */; };
+		AC7B6B66231F2E0500905C08 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B6B65231F2E0500905C08 /* MapViewController.swift */; };
+		AC7B6B68231F494900905C08 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B6B67231F494900905C08 /* SettingsViewController.swift */; };
+		AC7B6B6A231F500A00905C08 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC7B6B69231F500A00905C08 /* Settings.bundle */; };
 		AC8C7A9E230CAC2800615BF0 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = AC8C7A9D230CAC2800615BF0 /* movies.json */; };
 		AC8C7AA0230CAD1B00615BF0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C7A9F230CAD1B00615BF0 /* Movie.swift */; };
 		AC8C7AA2230CBAF100615BF0 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C7AA1230CBAF100615BF0 /* MoviesTableViewController.swift */; };
@@ -55,6 +58,9 @@
 		AC6EE8332306129A003EAFC8 /* MoviesLibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesLibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6EE8372306129A003EAFC8 /* MoviesLibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesLibUITests.swift; sourceTree = "<group>"; };
 		AC6EE8392306129A003EAFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7B6B65231F2E0500905C08 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AC7B6B67231F494900905C08 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AC7B6B69231F500A00905C08 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		AC8C7A9D230CAC2800615BF0 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
 		AC8C7A9F230CAD1B00615BF0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = Assets.xcassets/Movie.swift; sourceTree = "<group>"; };
 		AC8C7AA1230CBAF100615BF0 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +99,7 @@
 		AC6EE80B23061297003EAFC8 = {
 			isa = PBXGroup;
 			children = (
+				AC7B6B69231F500A00905C08 /* Settings.bundle */,
 				AC6EE81623061297003EAFC8 /* MoviesLib */,
 				AC6EE82B2306129A003EAFC8 /* MoviesLibTests */,
 				AC6EE8362306129A003EAFC8 /* MoviesLibUITests */,
@@ -127,6 +134,8 @@
 				AC6EE82023061299003EAFC8 /* LaunchScreen.storyboard */,
 				AC6EE82323061299003EAFC8 /* Info.plist */,
 				AC8C7AA3230CCC7300615BF0 /* MovieTableViewCell.swift */,
+				AC7B6B65231F2E0500905C08 /* MapViewController.swift */,
+				AC7B6B67231F494900905C08 /* SettingsViewController.swift */,
 			);
 			path = MoviesLib;
 			sourceTree = "<group>";
@@ -255,6 +264,7 @@
 			files = (
 				AC6EE82223061299003EAFC8 /* LaunchScreen.storyboard in Resources */,
 				AC6EE81F23061299003EAFC8 /* Assets.xcassets in Resources */,
+				AC7B6B6A231F500A00905C08 /* Settings.bundle in Resources */,
 				AC8C7A9E230CAC2800615BF0 /* movies.json in Resources */,
 				AC6EE81D23061298003EAFC8 /* Main.storyboard in Resources */,
 			);
@@ -283,7 +293,9 @@
 			files = (
 				AC8C7AA4230CCC7300615BF0 /* MovieTableViewCell.swift in Sources */,
 				AC8C7AA2230CBAF100615BF0 /* MoviesTableViewController.swift in Sources */,
+				AC7B6B68231F494900905C08 /* SettingsViewController.swift in Sources */,
 				ACB4986B231892030024998C /* Movie+image.swift in Sources */,
+				AC7B6B66231F2E0500905C08 /* MapViewController.swift in Sources */,
 				ACB4986723188C310024998C /* MoviesLib.xcdatamodeld in Sources */,
 				ACB4986923188D320024998C /* UIViewController+Context.swift in Sources */,
 				ACB4986D2318A4EC0024998C /* MovieRegisterViewController.swift in Sources */,
